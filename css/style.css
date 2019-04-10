@@ -1,0 +1,138 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: lightgrey 3px solid;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-item:nth-child(2) .lead,
+.carousel-item:nth-child(2) h1 {
+    color: black;
+}
+
+.carousel-item:nth-child(3) .lead,
+.carousel-item:nth-child(3) h1 {
+    color: black;
+}
+
+.carousel-image-1 {
+    background: url('../img/cyber-security.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-image-2 {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-image-3 {
+    background: url('../img/img5.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-image-4 {
+    background: url('../img/img4.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/img2.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+#home-heading h1,
+#home-heading p {
+    color: black;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba (0,0,0, 0.7);
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/img7.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: white;
+}
+
+#video-play a {
+    color: #fff;
+}
+
+
+/* ABOUT PAGE */
+
+#page-header {
+    height: 200px;
+    background: url('../img/groupfist.jpg') no-repeat;
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    text-shadow: 1px 1px white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
+/* SERVICES PAGE */
+.gold-plan {
+    color: gold;
+}
+
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+    background: #333;
+}
+
+
+/* FOOTER */
+#main-footer {
+    background: black;
+    color: #fff;
+}
